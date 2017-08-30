@@ -1,0 +1,33 @@
+1. note on JVM:
+   JVM: JAVA VIRTUAL MACHINE
+   It is an interpreter which is used to execute java progrmas(byte code) line by line.
+
+2. note on primitive and non-primitive data types:
+   primitive datatypes:it is the type of datatype used to store the value in memory
+   there are 8 primitive datatypes in java:
+   int-> byte, short, int, long
+   float->float, double
+   char-> char
+   boolean-> bool
+   non-primitive datatype:it is a datatype which contains objects as its reference,that doesnt
+   not contain value at the begining.
+
+3. ternary operators:The ternary operator is an operator that takes three arguments. 
+   The first argument is a comparison argument, the second is the result upon a true comparison,
+   and the third is the result upon a false comparison. It is also the shortened way of using if-else
+   statments.
+syntax: max=num1>num2?num1:num2;
+
+4. difference between JDK and JRE:
+   JDk is used to develop and compile the java application.
+   JRE is used to run the java application
+
+5. differencdifference between compiler and interpreter:
+        Compiler Takes Entire program as input	                Interpreter Takes Single instruction as input .
+	Intermediate Object Code is Generated	                No Intermediate Object Code is Generated
+	Conditional Control Statements are Executes faster      Conditional Control Statements are Executes slower
+	Memory Requirement : More (Since Object Code is Generated)	Memory Requirement is Less
+	Program need not be compiled every time	                Every time higher level program is converted into 
+                                                                             lower level program
+	Errors are displayed after entire program is checked	Errors are displayed for every instruction interpreted (if any)
+	Example : C Compiler	                                                  Example : BASIC 
